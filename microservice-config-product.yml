@@ -1,13 +1,17 @@
 #注意：如果在记事本上编写，下面的缩进不要使用Tab来缩进，不然报错 
 spring: 
   profiles: 
-    active: dev 
+    active: dev
+
+emp:
+  name: zhangsan    
     
     
 # 激活开发环境配置 
 --- 
 server:
   port: 8001
+
 
 spring:
   profiles: dev # 开发环境
